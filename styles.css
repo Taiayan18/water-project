@@ -1,0 +1,568 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  position: relative;
+}
+
+.back-img img {
+  position: absolute;
+width: 100;
+height: 88vh;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 0;
+}
+
+
+
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.367);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1;
+    transition: all 0.7s ease;
+}
+.header.scrolled {
+  background-color: white;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+.header.scrolled .logo {
+  color: #00a8e8;
+}
+
+.header.scrolled ul li {
+  color: black;
+}
+
+.header.scrolled ul li button {
+  background-color: #00a8e8;
+  color: white;
+}
+
+.header.scrolled .fa-magnifying-glass {
+  color: #00a8e8 !important;
+}
+
+.logo{
+    font-size: 30px;
+    color: rgb(0, 208, 250);
+    margin-left: 40px;
+}
+
+.list ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+     margin-right: 40px;
+
+}
+
+.blue{
+    color: rgb(0, 208, 250);
+}
+
+.list li:hover{
+    color: rgb(0, 208, 250);
+}
+.list ul li button{
+    height: 40px;
+    font-size: 20px;
+    width: 160px;
+    border-radius: 20px;
+    background-color: rgb(0, 208, 250);
+    color: white;
+    font-weight: bold;
+}
+
+
+.menu{
+   
+
+    height: 40px;
+    width: 50px;
+    font-size: 25px;
+  
+    display: none;
+}
+
+.word-pragraph{
+    position: relative;
+    border: 1px solid rgb(197, 4, 4);
+    height: 88vh;
+      background-color: rgba(0, 0, 0, 0.367);
+      color: white;
+      display: grid;
+      border: none;
+     
+     padding-top: 150px;
+     
+     
+}
+
+.word{
+    padding-left: 80px;
+    display: grid;
+   align-content: center;
+   gap: 25px;
+   width: 60%;
+}
+
+.word2{
+
+    display: grid;
+   align-content: center;
+   gap: 25px;
+   width: 20%;
+}
+.word h1{
+    font-size: 58px;
+}
+
+.word h3{
+    font-size: 25px;
+}
+
+.word p{
+    font-size: 20px;
+}
+
+.b1{
+    height: 60px;
+    width: 180px;
+    font-size: 20px;
+    background-color: rgb(0, 208, 250);
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.b2{
+    height: 60px;
+    width: 180px;
+    font-size: 20px;
+    background-color: rgb(0, 38, 255);
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+
+.box-3{
+    border: 1px solid;
+   
+    
+    background-color: rgb(242, 250, 250);
+    padding: 50px;
+}
+
+.word-3{
+    border: 1px solid black;
+    display: block;
+    align-content: center;
+    height: 250px;
+    border: none;
+    text-align: center;
+}
+ 
+
+.word-3 h2{
+    font-size: 30px;
+    color: rgb(0,250,255);
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+
+}
+
+
+.word-3 h1{
+   
+    font-size: 65px;
+   
+    margin-bottom: 20px;
+
+}
+.card{
+    border: 1px solid black;
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+    border: none;
+    grid-template-columns: auto auto auto auto;
+}
+.card-1{
+    border: 1px solid black;
+    height: 400px;
+    width: 250px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+.card-1 h2{
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+
+.b{
+    background-color: rgb(0,250, 255);
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    border-radius: 180px;
+    margin: auto;
+    font-size: 75px;
+    margin-top: 20px;
+}
+
+.b:hover{
+    transform: rotate(360deg);
+    transition: 0.4s;
+}
+.b4{
+   
+    border: 1px solid black;
+    height: 30px;
+    width: 120px;
+    border-radius: 180px;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(32, 3, 176);
+    border: none;
+    background-color: rgba(250, 235, 215, 0);
+ 
+}
+
+.b4:hover{
+    color: rgb(0, 132, 134);
+}
+
+.box-4{
+    border: 1px solid black;
+width: 100%;
+ display: grid;
+ justify-content: center;
+ grid-template-columns:  auto auto  ;
+    gap: 30px;
+    margin: auto;
+    padding-block: 30px;
+}
+
+.water-images{
+    border: 1px solid black;
+    width: 650px;
+    border: none;
+    margin: auto;
+}
+
+.water-pragraph{
+    border: 1px solid black;
+    width: 500px;
+     border: none;
+     margin: auto;
+}
+
+.water-pragraph h3{
+    font-size: 30px;
+    color: #00a8e8;
+    margin-block: 20px;
+}
+
+.water-pragraph h1{
+    font-size: 45px;
+     margin-block: 20px;
+}
+
+
+.customer{
+    border: 1px solid black;
+    height: 150px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 7px;
+    margin-block: 25px;
+    border: none;
+    background-color: rgb(242, 250, 250);
+}
+.logo-water{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    border-radius: 200px;
+   display: grid;
+   justify-content: center;
+   margin-left: 10px;
+   align-items: center;
+   background-color: rgb(0, 250, 255);
+    
+}
+
+.read button{
+    border: 1px solid black;
+    height: 80px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 45px;
+    background-color: #00a8e8;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1200px){
+    .word h1{
+        font-size: 45px;
+    }
+    .water-images{
+        width: 550px;
+    }
+}
+
+
+
+@media(min-width:860px)and (max-width:1100px){
+    .card{
+        grid-template-columns: auto auto;
+    }
+    .card-1{
+        width: 400px;
+    }
+
+    .box-4{
+        grid-template-columns: auto;
+    }
+    .water-images{
+        width: 650px;
+    }
+}
+
+@media(min-width:576px)and (max-width:860px){
+     .card{
+        grid-template-columns:  auto;
+    }
+
+    
+    .card-1{
+        width: 100%;
+    }
+    .word-3 h1{
+        font-size: 40px;
+    }
+    .word-5 p{
+        font-size: 25px;
+    }
+     .box-4{
+        grid-template-columns: auto;
+    }
+    .water-images{
+        width: 550px;
+    } 
+
+    .water-pragraph{
+        width: 550px;
+    }
+    .read button{
+        height: 60px;
+    }
+}
+
+
+@media(min-width:280px)and (max-width:576px){
+     .card{
+        grid-template-columns:  auto;
+    }
+    .card-1{
+        height: 380px;
+        width: 100%;
+    }
+    .word-3 h1{
+        font-size: 28px;
+    }
+    .word-5 p{
+        font-size: 18px;
+    }
+
+       .box-4{
+        grid-template-columns: auto;
+    }
+    .water-images{
+        width: 450px;
+    } 
+
+    .water-pragraph{
+        width:350px;
+    }
+
+    .water-pragraph h1{
+        font-size: 35px;
+    }
+    
+    
+    .water-pragraph p{
+        font-size: 15px;
+    }
+
+    .logo-pragraph h1{
+        font-size: 20px;
+    }
+    .logo-pragraph p{
+        font-size: 12px;
+    }
+
+    .logo-water {
+        height: 80px;
+        width: 80px;
+        font-size: 30px;
+    }
+      .read button{
+        height: 50px;
+    }
+    
+}
+
+
+@media(min-width:300px) and (max-width:460px){
+    
+       .box-4{
+        grid-template-columns: auto;
+    }
+    .water-images{
+        width: 320px;
+    } 
+
+    .water-pragraph{
+        width:300px;
+    }
+
+    .water-pragraph h1{
+        font-size: 30px;
+    }
+    
+    
+    .water-pragraph p{
+        font-size: 12px;
+    }
+
+    .logo-pragraph h1{
+        font-size: 15px;
+    }
+    .logo-pragraph p{
+        font-size: 12px;
+    }
+
+    .logo-water {
+        height: 70px;
+        width: 70px;
+        font-size: 25px;
+    }
+}
+
+
+
+@media(max-width:992px){
+    .list{
+        display: none;
+    }
+    .menu{
+        display: block;
+        text-align: center;
+    }
+
+    .word h1{
+        font-size: 40px;
+    }
+
+      .word p{
+        font-size: 18px;
+    }
+
+      .word button{
+        font-size: 18px;
+        width: 150px;
+        height: 50px;
+    }
+}
+
+
+
+@media(max-width:772px){
+    .word2{
+        display: none;
+    }
+
+    .word{
+        width: 100%;
+        margin: auto;
+        padding: 25px;
+      
+    }
+}
+
+
+@media(min-width:300px) and (max-width:490px){
+
+    
+    .word h1{
+        font-size: 27px;
+    }
+
+    .word h3{
+        font-size: 20px;
+    }
+
+      .word p{
+        font-size: 14px;
+    }
+    .word button{
+        font-size: 15px;
+        width: 120px;
+    }
+
+    .read button{
+        height: 50px;
+    }
+}
+
+
+
